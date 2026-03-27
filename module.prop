@@ -1,7 +1,0 @@
-id=spen_cursor_overlay
-name=SPenCursorOverlay
-version=v1.0
-versionCode=1
-author=KrugDev
-description=Fixes S-Pen visuals. Restores the default pointer arrow and replaces the tap indicator with the OneUI S-Pen spot. Requires "Show taps" enabled.
-template=3
