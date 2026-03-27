@@ -1,6 +1,6 @@
 # SPenCursorOverlay
 
-**A Magisk module for Galaxy Tab devices running AOSP-based ROMs (LineageOS, DerpFest).**  
+**A Magisk module for Galaxy Tab devices running AOSP-based ROMs.**  
 Restores a proper arrow pointer for OTG/Bluetooth mouse use, while keeping the OneUI S Pen hover dot as the tap indicator — without polluting every finger touch with a visible spot.
 
 > Requires **"Show taps"** to be enabled in Developer Options.
@@ -77,7 +77,7 @@ The installer prompts you to pick a cursor style suited to your wallpaper/prefer
 | Other AOSP ROMs with S Pen patch | ⚠️ Likely works, untested |
 | Stock OneUI | ❌ Not supported |
 
-Tested on: *[add your device model here, e.g. Samsung Galaxy Tab S6 Lite]*
+Tested on: *Samsung Galaxy Tab S6 Lite 2022*
 
 ---
 
@@ -90,4 +90,4 @@ Tested on: *[add your device model here, e.g. Samsung Galaxy Tab S6 Lite]*
 
 ## License
 
-[GPL-3.0](LICENSE)
+[MIT](LICENSE)
