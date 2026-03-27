@@ -1,3 +1,9 @@
+### v1.0.11
+- Changelog not being commited
+
+### v1.0.10
+- Fixed timeout not working correctly
+
 ### v1.0.9
 - Removed github workflows
 

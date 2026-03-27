@@ -47,13 +47,13 @@ git push origin main
 git push origin %NEWVERSION%
 if errorlevel 1 goto error
 
-:: ── Create GitHub release and upload zip ─────────────────────────
+:: ── Create GitHub release with auto-generated notes ──────────────
 echo.
-echo Creating GitHub release...
-gh release create %NEWVERSION% ^
-    "out\SPenCursorOverlay-%NEWVERSION%.zip" ^
-    --title "%NEWVERSION%" ^
-    --notes-file CHANGELOG.md
+echo Creating GitHub release %VERSION%...
+gh release create %VERSION% ^
+    "out\SPenCursorOverlay-%VERSION%.zip" ^
+    --title "%VERSION%" ^
+    --generate-notes
 if errorlevel 1 goto error
 
 echo.
