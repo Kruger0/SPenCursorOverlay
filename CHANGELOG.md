@@ -1,3 +1,6 @@
+### v1.0.13
+- Fixed key input detection
+
 ### v1.0.12
 - Small changes on key fetching method
 
