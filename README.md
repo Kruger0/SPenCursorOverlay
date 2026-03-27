@@ -1,33 +1,3 @@
-S-Pen Cursor & Pointer Fix
-This Magisk module is designed for Samsung Galaxy Tab devices running AOSP-based ROMs (LineageOS, Derpfest, etc.). It resolves the visibility issues caused by flagging the S-Pen as a mouse input while restoring the signature OneUI aesthetic.
-
-🚀 Features
-Input Restoration: Reverts the S-Pen flag from "Mouse" back to "Touchscreen" for better native behavior.
-
-Classic Pointer: Restores the standard pointer_arrow vector, making external OTG/Bluetooth mice usable again.
-
-OneUI Aesthetics: Replaces the generic hover spot with the official OneUI S-Pen hover icon.
-
-Clean Touch Experience: Makes the "Show Taps" indicator invisible for finger touches, ensuring the S-Pen spot is the only thing you see.
-
-🛠 Prerequisites
-Magisk installed.
-
-"Show Taps" must be enabled in Developer Options for the S-Pen spot to be visible.
-
-📦 Installation
-Download the latest ZIP from the Releases page.
-
-Install via Magisk app.
-
-(Optional) Choose between Light or Dark pointer themes during installation (WIP).
-
-Reboot your device.
-
-📝 Note on "Show Taps"
-By using this module, your finger touches will be invisible even with "Show Taps" on. The S-Pen pointer will disappear when the nib touches the screen, mimicking the behavior of original Samsung firmware.
-
-
 # SPenCursorOverlay
 
 **A Magisk module for Galaxy Tab devices running AOSP-based ROMs (LineageOS, DerpFest).**  
