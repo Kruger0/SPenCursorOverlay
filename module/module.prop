@@ -1,7 +1,7 @@
 id=spen_cursor_overlay
 name=SPenCursorOverlay
-version=v1.0.7
-versionCode=25
+version=v1.0.8
+versionCode=26
 author=KrugDev
 description=Restores the mouse arrow and replaces the tap indicator with the OneUI S-Pen spot.
 updateJson=https://raw.githubusercontent.com/kruger0/spencursoroverlay/master/update.json
