@@ -34,8 +34,8 @@ for %%V in (dark light) do (
 
     echo [%%V - 4/4] Signing...
     java -jar %TOOLS%\apksigner.jar sign ^
-        --ks %TOOLS%\debug.keystore ^
-        --ks-pass pass:android ^
+        --ks krugdev.jks ^
+        --ks-key-alias spencursoroverlay ^
         --out %OUT%\%%V.apk ^
         %OUT%\%%V_aligned.apk
     if errorlevel 1 goto error

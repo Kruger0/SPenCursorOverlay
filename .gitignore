@@ -4,5 +4,5 @@ out/
 # Must be manually extracted from your device
 tools/framework-res.apk
 
-# Uncommend when using real private keys
-# tools/release.keystore
+# Obviously.
+*.jks
