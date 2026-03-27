@@ -1,4 +1,4 @@
-name: Update Magisk Update JSON
+name: Update JSON
 
 on:
   release:
