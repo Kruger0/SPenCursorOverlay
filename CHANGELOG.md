@@ -1,3 +1,6 @@
+### v1.0.6
+- Magisk now reads the changelog file correctly
+
 ### v1.0.5
 - Fixing version numbers
 
